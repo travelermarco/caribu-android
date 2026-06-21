@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#090D14"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Logo + titolo -->
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚐 Caribù"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#F59E0B"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Il tuo camper, tutto qui"
+        android:textSize="14sp"
+        android:textColor="#7D8A99"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Status Android Auto -->
+    <TextView
+        android:id="@+id/statusAA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⏳ In attesa di Android Auto…"
+        android:textSize="13sp"
+        android:textColor="#7D8A99"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Status bridge -->
+    <TextView
+        android:id="@+id/statusBridge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📡 Bridge dati: in attesa PWA"
+        android:textSize="13sp"
+        android:textColor="#7D8A99"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Pulsante apri Chrome -->
+    <Button
+        android:id="@+id/btnOpenChrome"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Apri Caribù in Chrome"
+        android:textColor="#090D14"
+        android:textStyle="bold"
+        android:backgroundTint="#F59E0B"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Update banner (nascosto di default) -->
+    <LinearLayout
+        android:id="@+id/updateBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1A2030"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/updateText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#F0F6FC"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Installa"
+            android:textSize="12sp"
+            android:backgroundTint="#F59E0B"
+            android:textColor="#090D14"/>
+    </LinearLayout>
+
+    <!-- Versione app -->
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="11sp"
+        android:textColor="#3A4455"/>
+
+</LinearLayout>

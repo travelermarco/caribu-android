@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Caribù</string>
+    <string name="update_available">⬆ Update v%s disponibile</string>
+    <string name="update_download">Installa</string>
+    <string name="update_downloading">Download…</string>
+    <string name="update_download_error">Download fallito. Apri nel browser.</string>
+    <string name="open_pwa">Apri Caribù in Chrome</string>
+    <string name="aa_status_active">Android Auto attivo</string>
+    <string name="aa_status_idle">In attesa di Android Auto…</string>
+    <string name="bridge_connected">Bridge dati: attivo</string>
+    <string name="bridge_idle">Bridge dati: in attesa PWA</string>
+</resources>

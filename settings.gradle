@@ -1,0 +1,2 @@
+rootProject.name = "CaribuAndroid"
+include ':app'
