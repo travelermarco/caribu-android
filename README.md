@@ -1,5 +1,7 @@
 # Caribù Android
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
+
 Native Android companion app for [Caribù](https://github.com/travelermarco/caribu) — the unified camper van dashboard.
 
 Brings Caribù to **Android Auto**: when your phone connects to your van's infotainment display, a live dashboard appears on the car screen showing battery SOC, heater temperature, and solar power — no manual steps needed.
